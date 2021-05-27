@@ -1,0 +1,42 @@
+.light{
+  --background: white;
+  --text: #000;
+}
+
+.dark{
+  --background:#282A36;
+  --text: #F8F8F2;
+}
+
+body{
+  scrollbar-width: 0px;
+  font-family: Verdana;
+  margin: 0;
+  height: 100%;
+  width: 100%;
+  color:var(--text);
+  background-color:var(--background);
+}
+
+
+#all-frame{
+  display:flex;
+  flex-direction: column;
+}
+
+#page-frame{
+  margin: 0 auto 30px;
+  max-width: min(900px, 100%);
+}
+
+#header{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-content: space-between;
+font-size: 1.5em;
+}
+
+#header *{
+  flex-grow: 1;
+}
