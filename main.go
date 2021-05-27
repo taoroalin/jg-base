@@ -41,4 +41,9 @@ func main() {
 	})
 
 	log.Fatal(server.Listen(":3000"))
+
+	// fasthttp.ListenAndServe(":3000", func(ctx *fasthttp.RequestCtx) {
+
+	// })
+
 }
