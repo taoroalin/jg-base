@@ -1,3 +1,6 @@
+const CHARS_64 = "-_0123456789abcdefghijklmnopqrstuvwxyzABCDEFJHIJKLMNOPQRSTUVWXYZ"
+const CHARS_16 = "0123456789abcdef"
+
 const pushToArrInObj = (obj, key, val) => {
   if (obj[key] === undefined) {
     obj[key] = [val]
